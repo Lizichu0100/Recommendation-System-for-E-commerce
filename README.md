@@ -52,12 +52,22 @@ This project focuses on building a **batch processing pipeline** for training an
 ---
 
 ## 🧠 Models Implemented
-- **Matrix Factorization (MF)**
-- **Neural Collaborative Filtering (NCF) / MLP**
-- **LightGCN**
-- **UltraGCN (improved version)**
+- **Matrix Factorization (MF)**  
+  Decomposes the user–item interaction matrix into latent factors to capture preferences and product features efficiently.
 
-📷 **Suggested Image from Slide:** *UltraGCN vs LightGCN comparison chart*
+- **Neural Collaborative Filtering (NCF)**  
+  Replaces the dot-product in MF with a neural network to model complex user–item interactions.
+
+- **Multi-Layer Perceptron (MLP)**  
+  Learns non-linear relationships between user and item embeddings using multiple fully connected layers.
+
+- **LightGCN**  
+  A graph-based recommendation model that propagates embeddings through user–item interaction graphs for improved accuracy.
+
+**Improvement:**  
+We further compared **LightGCN** with **UltraGCN**, which removes multi-layer message passing and introduces global similarity constraints, improving both accuracy and computational efficiency.
+
+![Model Comparison](images/Download(1).png)
 
 ---
 
