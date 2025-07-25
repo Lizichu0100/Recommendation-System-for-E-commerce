@@ -67,10 +67,25 @@ This project focuses on building a **batch processing pipeline** for training an
 ---
 
 ## 📈 Evaluation Metrics
-- **Precision@K**
-- **Recall@K**
-- **F1-Score**
-- **NDCG@K**
+
+- **Precision@K**  
+  Measures the proportion of relevant items in the top-K recommended list compared to all recommended items.
+
+- **Recall@K**  
+  Indicates how many of the relevant items are included in the top-K recommendations out of all relevant items for a user.
+
+- **F1-Score**  
+  Harmonic mean of Precision and Recall, balancing both accuracy and coverage.
+
+- **NDCG@K (Normalized Discounted Cumulative Gain)**  
+  Evaluates ranking quality by considering both the relevance and the position of items in the top-K list.
+
+- **RMSE (Root Mean Square Error)**  
+  Measures the square root of the average squared differences between predicted and actual ratings (lower is better).
+
+- **MAE (Mean Absolute Error)**  
+  Calculates the average absolute difference between predicted and actual ratings, giving a more interpretable error metric.
+
 
 <p align="center">
   <img src="images/download.png" alt="Model Comparison using Precision@10, Recall@10, NDCG@10" width="500"><br>
