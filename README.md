@@ -93,7 +93,7 @@ This project focuses on building a **batch processing pipeline** for training an
 </p>
 
 <p align="center">
-  <img src="images/download(1).png" alt="Model Comparison using RMSE & MAE" width="600"><br>
+  <img src="images/download(1).png" width="750"><br>
   <em>Model Comparison using RMSE & MAE</em>
 </p>
 
@@ -109,7 +109,9 @@ To enhance recommendation performance, we compared **LightGCN** with **UltraGCN*
 | Efficiency           | Higher computation cost                  | Lower cost, faster training                         |
 | Performance Metrics  | Good                                      | Improved Precision@K, Recall@K, NDCG, and RMSE/MAE |
 
-![](images/Capture52.PNG)
+<p align="center">
+  <img src="images/Capture52.PNG" alt="Model Comparison using RMSE & MAE" width="600"><br>
+</p>
 
 ---
 ## 🚀 Features
