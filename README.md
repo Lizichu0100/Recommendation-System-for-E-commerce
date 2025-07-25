@@ -68,9 +68,11 @@ This project focuses on building a **batch processing pipeline** for training an
 We further compared **LightGCN** with **UltraGCN**, which removes multi-layer message passing and introduces global similarity constraints, improving both accuracy and computational efficiency.
 
 ![Model Comparison using Precision@10, Recall@10, NDCG@10](images/download.png)  
+
 *Model Comparison using Precision@10, Recall@10, NDCG@10*
 
-![Model Comparison using RMSE & MAE](images/download(1).png)  
+![Model Comparison using RMSE & MAE](images/download (1).png)  
+
 *Model Comparison using RMSE & MAE*
 
 ---
