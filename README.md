@@ -1,4 +1,4 @@
-# 🛍️ Product Recommendation System for E-commerce Platform 🖥️
+# 🛒 Product Recommendation System for E-commerce Platform 
 
 This is a project using deep learning-based recommendation system designed to enhance user experience by suggesting relevant products for e-commerce platforms.
 
