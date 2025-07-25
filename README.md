@@ -67,9 +67,14 @@ This project focuses on building a **batch processing pipeline** for training an
 **Improvement:**  
 We further compared **LightGCN** with **UltraGCN**, which removes multi-layer message passing and introduces global similarity constraints, improving both accuracy and computational efficiency.
 
-![Model Comparison using Precision@10, Recall@10, NDCG@10](images/download.png)
-
-![Model Comparison using RMSE & MAE](images/download(1).png)
+<p align="center">
+  <img src="images/download.png" alt="Precision@10, Recall@10, NDCG@10" width="45%">
+  <img src="images/download(1).png" alt="RMSE & MAE" width="45%">
+</p>
+<p align="center">
+  <em>Model Comparison using Precision@10, Recall@10, NDCG@10</em> &nbsp;&nbsp;&nbsp;&nbsp;
+  <em>Model Comparison using RMSE & MAE</em>
+</p>
 
 ---
 
@@ -84,7 +89,7 @@ We further compared **LightGCN** with **UltraGCN**, which removes multi-layer me
 ---
 
 ## 🚀 Features
-- Enter `user_id` → Get **Top-K product recommendations**.
+- Enter `user_id` → Get **Top 5 product recommendations**.
 - Display user interaction history.
 - Compare predicted vs actual interactions.
 
