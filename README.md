@@ -95,7 +95,8 @@ This project focuses on building a **batch processing pipeline** for training an
   <em>Model Comparison using RMSE & MAE</em>
 </p>
 
-**Conclusion**
+**Conclusion:**
+
 The experiments demonstrate that **LightGCN** is the most suitable model for top-N recommendations in e-commerce platforms, achieving superior ranking metrics (Precision@10, Recall@10, NDCG@10) by leveraging graph structure, while outperforming both traditional models (MF) and other deep learning approaches (NCF, MLP).
 
 ---
@@ -123,6 +124,7 @@ The experiments demonstrate that **LightGCN** is the most suitable model for top
 | **UltraGCN**  | **0.0056**       | **0.0412**    | **0.0389**  | **4.2217**   | **4.1059**  |
 
 **Conclusion:**  
+
 UltraGCN outperforms LightGCN across ranking metrics (Precision@10, Recall@10, NDCG@10) and reduces RMSE/MAE, resulting in higher-quality embeddings. With lower computational cost and simpler architecture, UltraGCN proves superior in both accuracy and practical deployment.
 
 ---
@@ -152,4 +154,5 @@ UltraGCN outperforms LightGCN across ranking metrics (Precision@10, Recall@10, N
 - **Step 5**: Navigate to the Product_Demo folder that you downloaded using the `cd` command.
 - **Step 6**: Then run `streamlit run Demo_web.py` (Make sure you install streamlit first).
 - **Step 7**: Enjoy 🎉
+
 The demo output will be a website similar to "**🚀 7. Features**", where you can select a customer to display the list of customers who have made purchases and recommend the next product for the customer.
