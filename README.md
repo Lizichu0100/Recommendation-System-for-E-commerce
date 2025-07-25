@@ -64,8 +64,13 @@ This project focuses on building a **batch processing pipeline** for training an
 - **LightGCN**  
   A graph-based recommendation model that propagates embeddings through user–item interaction graphs for improved accuracy.
 
-**Improvement:**  
-We further compared **LightGCN** with **UltraGCN**, which removes multi-layer message passing and introduces global similarity constraints, improving both accuracy and computational efficiency.
+---
+
+## 📈 Evaluation Metrics
+- **Precision@K**
+- **Recall@K**
+- **F1-Score**
+- **NDCG@K**
 
 <p align="center">
   <img src="images/download.png" alt="Model Comparison using Precision@10, Recall@10, NDCG@10" width="500"><br>
@@ -78,17 +83,20 @@ We further compared **LightGCN** with **UltraGCN**, which removes multi-layer me
 </p>
 
 ---
+## 🔍 Model Improvement: LightGCN vs UltraGCN
 
-## 📈 Evaluation Metrics
-- **Precision@K**
-- **Recall@K**
-- **F1-Score**
-- **NDCG@K**
+To enhance recommendation performance, we compared **LightGCN** with **UltraGCN**:
 
-📷 **Suggested Image from Slide:** *Bar chart of Precision/Recall/NDCG*
+| Aspect               | LightGCN                                  | UltraGCN                                              |
+|----------------------|-------------------------------------------|------------------------------------------------------|
+| Message Passing      | Multi-layer propagation (costly)         | Removed (simplifies computation)                    |
+| Global Similarity    | Not considered                           | Added for better embedding quality                  |
+| Efficiency           | Higher computation cost                  | Lower cost, faster training                         |
+| Performance Metrics  | Good                                      | Improved Precision@K, Recall@K, NDCG, and RMSE/MAE |
+
+![](images/Capture52.PNG)
 
 ---
-
 ## 🚀 Features
 - Enter `user_id` → Get **Top 5 product recommendations**.
 - Display user interaction history.
