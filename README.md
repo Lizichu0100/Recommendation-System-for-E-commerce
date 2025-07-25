@@ -47,7 +47,7 @@ This project focuses on building a **batch processing pipeline** for training an
 - Histograms, Pie Charts, Word Cloud
 - Rating distribution, interaction density
 
-![Data Pipeline](images/Capture51.png)
+![Data Pipeline](images/Capture51.PNG)
 
 ---
 
