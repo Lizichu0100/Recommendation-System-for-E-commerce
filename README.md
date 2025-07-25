@@ -69,7 +69,7 @@ We further compared **LightGCN** with **UltraGCN**, which removes multi-layer me
 
 ![Model Comparison using Precision@10, Recall@10, NDCG@10](images/download.png)
 
-![Model Comparison using RMSE & MAE](images/download.png)
+![Model Comparison using RMSE & MAE](images/download(1).png)
 
 ---
 
