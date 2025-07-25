@@ -99,7 +99,7 @@ This project focuses on building a **batch processing pipeline** for training an
 The experiments demonstrate that **LightGCN** is the most suitable model for top-N recommendations in e-commerce platforms, achieving superior ranking metrics (Precision@10, Recall@10, NDCG@10) by leveraging graph structure, while outperforming both traditional models (MF) and other deep learning approaches (NCF, MLP).
 
 ---
-## 🔍 6. Model Improvement: LightGCN vs UltraGCN
+## 📈 6. Model Improvement: LightGCN vs UltraGCN
 
 - To enhance recommendation performance, we compared **LightGCN** with **UltraGCN**:
 
@@ -139,14 +139,14 @@ UltraGCN outperforms LightGCN across ranking metrics (Precision@10, Recall@10, N
 
 ---
 
-## 🏗️ Tech Stack
+## 🏗️ 8. Tech Stack
 - **Python**, **Pandas**, **NumPy**, **Matplotlib**, **Seaborn**
 - **PyTorch** (for Deep Learning models)
 - **Scikit-learn**
 - **Visual Studio Code** and **Google Colab** for training
 
 ---
-## ▶️ Usage
+## ▶️ 9. Usage
 - **Step 1**: Download Product_Demo on Repository
 - **Step 2**: Open and run **Recommend_Using_UltraGCN.ipynb**, you can customize the random number of users you want to output using `selected_users = random.sample(list(valid_users), random_numbers)` on section 4, UltraGCN will still learn from all of data.
 - **Step 3**: After that, you can see it ouput two files: purchase_history.csv and recommendations.csv.
