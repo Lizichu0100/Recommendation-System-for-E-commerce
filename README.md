@@ -4,7 +4,7 @@ A machine learning-based recommendation system designed to enhance user experien
 
 <p align="center">
   <img src="images/recommendation-system-Banner.png" width="750"><br>
-  <em>Model Comparison using Precision@10, Recall@10, NDCG@10</em>
+  <em>Source pic: [leewayhertz.com](https://www.leewayhertz.com/)</em>
 </p>
 
 ---
@@ -135,6 +135,7 @@ UltraGCN outperforms LightGCN across ranking metrics (Precision@10, Recall@10, N
 
 <p align="center">
   <img src="images/Capture36.PNG" width="750"><br>
+  <em>Prodcuct Demo</em>
 </p>
 
 ---
