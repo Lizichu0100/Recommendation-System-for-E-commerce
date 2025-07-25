@@ -1,10 +1,10 @@
-# 🛍️ Product Recommendation System for E-commerce Platform 🤖
+# 🛍️ Product Recommendation System for E-commerce Platform 🖥️
 
-A machine learning-based recommendation system designed to enhance user experience by suggesting relevant products for e-commerce platforms.
+This is a project using deep learning-based recommendation system designed to enhance user experience by suggesting relevant products for e-commerce platforms.
 
 <p align="center">
   <img src="images/recommendation-system-Banner.png" width="750"><br>
-  <em>Source pic: [leewayhertz.com](https://www.leewayhertz.com/)</em>
+  <em>Source pic: <a href="https://www.leewayhertz.com/" target="_blank">leewayhertz.com</a></em>
 </p>
 
 ---
