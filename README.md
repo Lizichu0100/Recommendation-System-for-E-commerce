@@ -1,5 +1,8 @@
 # 🛍️ Product Recommendation System for E-commerce Platform 🤖
 
+A machine learning-based recommendation system designed to enhance user experience by suggesting relevant products for e-commerce platforms.
+
+---
 ## 👥 Contributors
 
 
@@ -10,8 +13,6 @@
 | 21280109    | Phan Huy Thịnh       |
 
 **Advisor:** TS. Trần Anh Tuấn
-
-A machine learning-based recommendation system designed to enhance user experience by suggesting relevant products for e-commerce platforms.
 
 ---
 
