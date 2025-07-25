@@ -93,14 +93,14 @@ This project focuses on building a **batch processing pipeline** for training an
 </p>
 
 <p align="center">
-  <img src="images/download(1).png" width="750"><br>
+  <img src="images/download(1).png" width="600"><br>
   <em>Model Comparison using RMSE & MAE</em>
 </p>
 
 ---
 ## 🔍 Model Improvement: LightGCN vs UltraGCN
 
-To enhance recommendation performance, we compared **LightGCN** with **UltraGCN**:
+- To enhance recommendation performance, we compared **LightGCN** with **UltraGCN**:
 
 | Aspect               | LightGCN                                  | UltraGCN                                              |
 |----------------------|-------------------------------------------|------------------------------------------------------|
@@ -110,14 +110,21 @@ To enhance recommendation performance, we compared **LightGCN** with **UltraGCN*
 | Performance Metrics  | Good                                      | Improved Precision@K, Recall@K, NDCG, and RMSE/MAE |
 
 <p align="center">
-  <img src="images/Capture52.PNG" alt="Model Comparison using RMSE & MAE" width="600"><br>
+  <img src="images/Capture52.PNG" alt="Model Comparison using RMSE & MAE" width="750"><br>
 </p>
+
+- Ranking Metrics:
+
 
 ---
 ## 🚀 Features
-- Enter `user_id` → Get **Top 5 product recommendations**.
+- Enter customer name → Get **Top 5 product recommendations**.
 - Display user interaction history.
 - Compare predicted vs actual interactions.
+
+<p align="center">
+  <img src="images/Capture36.PNG" alt="Model Comparison using RMSE & MAE" width="750"><br>
+</p>
 
 ---
 
