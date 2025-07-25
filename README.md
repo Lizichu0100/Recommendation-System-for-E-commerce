@@ -1,5 +1,16 @@
 # 🛍️ Product Recommendation System for E-commerce Platform 🤖
 
+## 👥 Contributors
+
+
+| Student ID  | Name                  | 
+|-------------|-----------------------|
+| 21280125    | Trần Thị Uyên Nhi    |
+| 21280084    | Đặng Thị Kim Anh     |
+| 21280109    | Phan Huy Thịnh       |
+
+**Advisor:** TS. Trần Anh Tuấn
+
 A machine learning-based recommendation system designed to enhance user experience by suggesting relevant products for e-commerce platforms.
 
 ---
@@ -12,16 +23,6 @@ This project focuses on building a **batch processing pipeline** for training an
 - Model training and evaluation with multiple recommendation algorithms.
 - Top-K product recommendations for given users.
 - Visualization and analysis of user-product interactions.
-
----
-
-## 📂 Project Structure
-├── data/ # Dataset (link provided below)
-├── notebooks/ # Jupyter notebooks for EDA and modeling
-├── src/ # Source code (data pipeline, models)
-├── results/ # Experimental results, plots
-└── README.md
-
 
 ---
 
