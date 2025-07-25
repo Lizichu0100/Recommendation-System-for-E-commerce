@@ -2,6 +2,8 @@
 
 A machine learning-based recommendation system designed to enhance user experience by suggesting relevant products for e-commerce platforms.
 
+![](images/recommendation-system-Banner.png)
+
 ---
 ## 👥 Contributors
 
@@ -45,7 +47,7 @@ This project focuses on building a **batch processing pipeline** for training an
 - Histograms, Pie Charts, Word Cloud
 - Rating distribution, interaction density
 
-📷 **Suggested Image from Slide:** *Pipeline diagram* (Slide: "DATA PIPELINE")
+![Data Pipeline](images/Capture51.png)
 
 ---
 
