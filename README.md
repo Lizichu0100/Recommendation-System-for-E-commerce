@@ -99,7 +99,7 @@ This project focuses on building a **batch processing pipeline** for training an
 The experiments demonstrate that **LightGCN** is the most suitable model for top-N recommendations in e-commerce platforms, achieving superior ranking metrics (Precision@10, Recall@10, NDCG@10) by leveraging graph structure, while outperforming both traditional models (MF) and other deep learning approaches (NCF, MLP).
 
 ---
-## 📈 6. Model Improvement: LightGCN vs UltraGCN
+## 📋 6. Model Improvement: LightGCN vs UltraGCN
 
 - To enhance recommendation performance, we compared **LightGCN** with **UltraGCN**:
 
