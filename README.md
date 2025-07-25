@@ -88,12 +88,12 @@ This project focuses on building a **batch processing pipeline** for training an
 
 
 <p align="center">
-  <img src="images/download.png" alt="Model Comparison using Precision@10, Recall@10, NDCG@10" width="500"><br>
+  <img src="images/download.png" alt="Model Comparison using Precision@10, Recall@10, NDCG@10" width="750"><br>
   <em>Model Comparison using Precision@10, Recall@10, NDCG@10</em>
 </p>
 
 <p align="center">
-  <img src="images/download(1).png" alt="Model Comparison using RMSE & MAE" width="500"><br>
+  <img src="images/download(1).png" alt="Model Comparison using RMSE & MAE" width="750"><br>
   <em>Model Comparison using RMSE & MAE</em>
 </p>
 
