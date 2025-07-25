@@ -1,0 +1,9 @@
+# Ignore Windows system files
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
