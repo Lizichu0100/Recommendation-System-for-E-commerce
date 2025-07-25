@@ -4,7 +4,7 @@ This is a project using deep learning-based recommendation system designed to en
 
 <p align="center">
   <img src="images/recommendation-system-Banner.png" width="750"><br>
-  <em>Source pic: <a href="https://www.leewayhertz.com/" target="_blank">leewayhertz.com</a></em>
+  <small>Source pic: <a href="https://www.leewayhertz.com/" target="_blank">leewayhertz.com</a></small>
 </p>
 
 ---
