@@ -2,11 +2,13 @@
 
 A machine learning-based recommendation system designed to enhance user experience by suggesting relevant products for e-commerce platforms.
 
-![](images/recommendation-system-Banner.png)
+<p align="center">
+  <img src="images/recommendation-system-Banner.png" width="750"><br>
+  <em>Model Comparison using Precision@10, Recall@10, NDCG@10</em>
+</p>
 
 ---
 ## 👥 Contributors
-
 
 | Student ID  | Name                  | 
 |-------------|-----------------------|
@@ -14,11 +16,9 @@ A machine learning-based recommendation system designed to enhance user experien
 | 21280084    | Đặng Thị Kim Anh     |
 | 21280109    | Phan Huy Thịnh       |
 
-**Advisor:** TS. Trần Anh Tuấn
-
 ---
 
-## 📌 Overview
+## 📌 1. Overview
 This project focuses on building a **batch processing pipeline** for training and deploying product recommendation models based on **user behavior data** from the **Amazon Appliance Dataset**.
 
 **Key Features:**
@@ -29,17 +29,15 @@ This project focuses on building a **batch processing pipeline** for training an
 
 ---
 
-## 📊 Dataset
+## 📊 2. Dataset
 - **Source:** [Amazon Appliance Dataset (UCSD)](https://nijianmo.github.io/amazon/index.html)
 - Includes:
   - `Appliances.json` (reviews)
   - `meta_Appliances.json` (metadata)
 
-📂 [Download Raw Data from Google Drive](https://drive.google.com/drive/u/0/folders/131EYUUvpQ6qTQ3ay6__cKqkoEJaOqcgD)
-
 ---
 
-## 🔍 Data Pipeline
+## 🔍 3. Data Pipeline
 **Main Flow:**  
 `Data Extraction → Preprocessing → Model Training → Evaluation → Deployment`
 
@@ -51,7 +49,7 @@ This project focuses on building a **batch processing pipeline** for training an
 
 ---
 
-## 🧠 Models Implemented
+## 🧠 4. Models Implemented
 - **Matrix Factorization (MF)**  
   Decomposes the user–item interaction matrix into latent factors to capture preferences and product features efficiently.
 
@@ -66,7 +64,7 @@ This project focuses on building a **batch processing pipeline** for training an
 
 ---
 
-## 📈 Evaluation Metrics
+## 📈 5. Evaluation Metrics
 
 - **Precision@K**  
   Measures the proportion of relevant items in the top-K recommended list compared to all recommended items.
@@ -88,7 +86,7 @@ This project focuses on building a **batch processing pipeline** for training an
 
 
 <p align="center">
-  <img src="images/download.png" alt="Model Comparison using Precision@10, Recall@10, NDCG@10" width="600"><br>
+  <img src="images/download.png" width="600"><br>
   <em>Model Comparison using Precision@10, Recall@10, NDCG@10</em>
 </p>
 
@@ -97,8 +95,11 @@ This project focuses on building a **batch processing pipeline** for training an
   <em>Model Comparison using RMSE & MAE</em>
 </p>
 
+**Conclusion**
+The experiments demonstrate that **LightGCN** is the most suitable model for top-N recommendations in e-commerce platforms, achieving superior ranking metrics (Precision@10, Recall@10, NDCG@10) by leveraging graph structure, while outperforming both traditional models (MF) and other deep learning approaches (NCF, MLP).
+
 ---
-## 🔍 Model Improvement: LightGCN vs UltraGCN
+## 🔍 6. Model Improvement: LightGCN vs UltraGCN
 
 - To enhance recommendation performance, we compared **LightGCN** with **UltraGCN**:
 
@@ -107,31 +108,48 @@ This project focuses on building a **batch processing pipeline** for training an
 | Message Passing      | Multi-layer propagation (costly)         | Removed (simplifies computation)                    |
 | Global Similarity    | Not considered                           | Added for better embedding quality                  |
 | Efficiency           | Higher computation cost                  | Lower cost, faster training                         |
-| Performance Metrics  | Good                                      | Improved Precision@K, Recall@K, NDCG, and RMSE/MAE |
+| Performance Metrics  | Good                                     | Improved Precision@K, Recall@K, NDCG, and RMSE/MAE  |
 
 <p align="center">
-  <img src="images/Capture52.PNG" alt="Model Comparison using RMSE & MAE" width="750"><br>
+  <img src="images/Capture52.PNG" alt="LightGCN vs UltraGCN" width="750"><br>
+  <em>Architecture and concept difference between LightGCN and UltraGCN</em>
 </p>
 
-- Ranking Metrics:
+- Performance Comparison (LightGCN vs UltraGCN)
 
+| Model      | Precision@10 | Recall@10 | NDCG@10 |   RMSE   |   MAE   |
+|-----------|--------------|-----------|---------|----------|---------|
+| LightGCN  | 0.0042       | 0.0370    | 0.0355  | 4.3841   | 4.2028  |
+| **UltraGCN**  | **0.0056**       | **0.0412**    | **0.0389**  | **4.2217**   | **4.1059**  |
+
+**Conclusion:**  
+UltraGCN outperforms LightGCN across ranking metrics (Precision@10, Recall@10, NDCG@10) and reduces RMSE/MAE, resulting in higher-quality embeddings. With lower computational cost and simpler architecture, UltraGCN proves superior in both accuracy and practical deployment.
 
 ---
-## 🚀 Features
-- Enter customer name → Get **Top 5 product recommendations**.
+## 🚀 7. Features
+- Enter customer name → Get **Top 5 product recommendations** using UltraGCN.
 - Display user interaction history.
 - Compare predicted vs actual interactions.
 
 <p align="center">
-  <img src="images/Capture36.PNG" alt="Model Comparison using RMSE & MAE" width="750"><br>
+  <img src="images/Capture36.PNG" width="750"><br>
 </p>
 
 ---
 
 ## 🏗️ Tech Stack
 - **Python**, **Pandas**, **NumPy**, **Matplotlib**, **Seaborn**
-- **PyTorch** (for GNN models)
+- **PyTorch** (for Deep Learning models)
 - **Scikit-learn**
-- **Google Colab** for training
+- **Visual Studio Code** and **Google Colab** for training
 
 ---
+## ▶️ Usage
+- **Step 1**: Download Product_Demo on Repository
+- **Step 2**: Open and run **Recommend_Using_UltraGCN.ipynb**, you can customize the random number of users you want to output using `selected_users = random.sample(list(valid_users), random_numbers)` on section 4, UltraGCN will still learn from all of data.
+- **Step 3**: After that, you can see it ouput two files: purchase_history.csv and recommendations.csv.
+- **Step 4**: Open command prompt (Administrator)
+- **Step 5**: Navigate to the Product_Demo folder that you downloaded using the `cd` command.
+- **Step 6**: Then run `streamlit run Demo_web.py` (Make sure you install streamlit first).
+- **Step 7**: Enjoy 🎉
+The demo output will be a website similar to "**🚀 7. Features**", where you can select a customer to display the list of customers who have made purchases and recommend the next product for the customer.
