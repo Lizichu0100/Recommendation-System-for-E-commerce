@@ -142,7 +142,7 @@ UltraGCN outperforms LightGCN across ranking metrics (Precision@10, Recall@10, N
 ## 🏗️ 8. Tech Stack
 - **Python**, **Pandas**, **NumPy**, **Matplotlib**, **Seaborn**
 - **PyTorch** (for Deep Learning models)
-- **Scikit-learn**
+- **Scikit-learn** (for metrics and preprocessing)
 - **Visual Studio Code** and **Google Colab** for training
 
 ---
