@@ -1,6 +1,6 @@
 # 🛒 Product Recommendation System for E-commerce Platform 
 
-This is a project using a deep learning-based recommendation system designed to enhance user experience by suggesting relevant products for e-commerce platforms, specifically on Amazon.
+This is a graduation project at University of Science – VNU-HCM, focusing on a deep learning-based recommendation system designed to enhance user experience by suggesting relevant products on e-commerce platforms, specifically Amazon.
 
 <p align="center">
   <img src="images/recommendation-system-Banner.png" width="750"><br>
